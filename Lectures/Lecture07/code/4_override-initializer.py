@@ -7,7 +7,6 @@ class Employee:
         print("Name:",self.name, " Salary:", self.salary)
 
 class Manager(Employee):
-    team = 0
     def __init__(self, name, salary, employeeList):
         self.team = employeeList
         super().__init__(name, salary)
